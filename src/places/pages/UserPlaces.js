@@ -15,10 +15,6 @@ const Dummy_Places = [
       lat: 18.5181,
       lng: 73.8533,
     },
-    // location: {
-    //   lat: 40.7484405,
-    //   lng: -73.9878531,
-    // },
     creator: "u1",
   },
   {

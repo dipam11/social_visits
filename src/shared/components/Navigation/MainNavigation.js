@@ -33,7 +33,7 @@ const MainNavigation = () => {
           <span></span>
         </button>
         <h1 className="main-navigation__title">
-          <Link to="/">YourPlaces</Link>
+          <Link to="/">SocialX</Link>
         </h1>
         <nav className="main-navigation__header-nav">
           <NavLinks />

@@ -12,12 +12,16 @@
     text-decoration: none;
     padding: 1rem;
     color: white;
-    background: #292929;
+    background: #7364d2;
   }
   
   .user-item a:hover,
   .user-item a:active {
-    background: #ffd900;
+    /* background: #ffd900; */
+    background: transparent;
+    border: #7364d2 2px solid;
+    border-radius: 8px;
+
   }
   
   .user-item__content {
@@ -29,12 +33,13 @@
     height: 4rem;
     margin-right: 1rem;
   }
+
   
   .user-item__info h2 {
-    font-size: 1.5rem;
+    font-size: 1.4rem;
     margin: 0 0 0.5rem 0;
     font-weight: normal;
-    color: #ffd900;
+    color: #ffffff;
   }
   
   .user-item:hover h2,
