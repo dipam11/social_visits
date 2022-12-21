@@ -1,5 +1,5 @@
 import React from "react";
-import { MapContainer, TileLayer, useMap, Marker } from "react-leaflet";
+import { MapContainer, TileLayer, Marker } from "react-leaflet";
 
 import "./Map.css";
 
