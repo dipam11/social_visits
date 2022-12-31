@@ -16,7 +16,7 @@ const UserList = (props) => {
   }
 
   return (
-    <Card className="show_card">
+    // <Card className="show_card">
       <ul className="users-list">
         {props.items.map((user) => (
           <UserItem
@@ -28,7 +28,7 @@ const UserList = (props) => {
           />
         ))}
       </ul>
-    </Card>
+    // </Card>
   );
 };
 
