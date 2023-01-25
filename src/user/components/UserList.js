@@ -17,18 +17,17 @@ const UserList = (props) => {
 
   return (
     // <Card className="show_card">
-      <ul className="users-list">
-        {props.items.map((user) => (
-          <UserItem
-            key={user.id}
-            id={user.id}
-            image={user.image}
-            userName={user.name}
-            placeCount={user.places}
-          />
-        ))}
-      </ul>
-    // </Card>
+    <ul className="users-list">
+      {props.items.map((user) => (
+        <UserItem
+          key={user.id}
+          id={user.id}
+          image={user.image}
+          userName={user.name}
+          placeCount={user.places.length}
+        />
+      ))}
+    </ul>
   );
 };
 
